@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans';
+  background-color: #f9fafc;
+  font-weight: normal, 800;
+}
+p{
+  border-left: 2px solid #69696a;
+  padding-left: 15px;
+  width:50%;
+  height: 95px;
+}
+.links {
+  float: right;
+}
+.main-container {
+  display:flex;
+}
+a {
+  text-decoration: none;
+  padding-right: 10px
+  color: black
+}
+a:visited {
+  text-decoration: none;
+  padding-right: 5px
+  color: black
+}
+.hireus {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  clear: both;
+}
+.photo{
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.pink {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color:rgba(247,136,167,0.6);
+  position: absolute;
+  top: 55px;
+  left:-9px;
+  z-index: 1
+}
+.orange {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:rgba(247,193,162,0.7);
+  position: absolute;
+  bottom: 60px;
+  right: 91px;
+  z-index: 2
+}
+.purple {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: rgba(207,130,213,0.6);
+  position: absolute;
+  top: 148px;
+  right: 115px;
+  z-index: 3
+}
